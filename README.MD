@@ -1,5 +1,5 @@
 # DigestNumber
-` 一个精致的Android数字变换控件（内含一个时间变换控件）
+一个精致的Android数字变换控件（内含一个时间变换控件）
 
 [![](https://jitpack.io/v/limedroid/XStateController.svg)](https://jitpack.io/#limedroid/XStateController)
 
@@ -64,12 +64,12 @@ y(必选) | int | 数字在View中的起始Y坐标
 length(必选) | int | 数字的每一条边的长度 |
 initColor(可选 默认#66ccff) | int | 数字的初始颜色（shadow颜色）
 shadowRadius(可选 默认14) | int | shadow半径
-initStatus(可选 默认0) | int | 初始状态的数字 
+initStatus(可选 默认0) | int | 初始状态的数字
 
 ### 2.绑定Cnavas绘制
 在onDraw中，调用Number的onDraw方法，类似这样
 ```java
- @Override
+    @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         number.onDraw(canvas);
