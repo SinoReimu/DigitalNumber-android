@@ -1,7 +1,9 @@
 # DigestNumber
 一个精致的Android数字变换控件（内含一个时间变换控件）
 
-[![](https://jitpack.io/v/limedroid/XStateController.svg)](https://jitpack.io/#limedroid/XStateController)
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 ## 特性
 
@@ -12,11 +14,11 @@
 
 ## 集成步骤
 
-添加依赖
+在工程中添加依赖
 
 ```groovy
 dependencies {
-    compile 'com.github.limedroid:XStateController:v1.1.0'
+    implementation 'cn.tecotaku:digitalnumber-android:1.0.1'
 }
 ```
 

@@ -127,15 +127,12 @@ public class ClockView extends View {
         WeakReference<Activity> mActivity;
 
         public StaticHandler(Activity activity) {
-            //构造创建弱引用
             mActivity = new WeakReference<Activity>(activity);
         }
 
         @Override
         public void handleMessage(android.os.Message msg) {
-            //通过弱引用获取外部类.
             Activity activity = mActivity.get();
-            //进行非空再操作
             if (activity != null) {
                 if(msg.what==0x001) {
                     final Number num = (Number) msg.obj;
