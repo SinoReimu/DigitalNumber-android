@@ -93,6 +93,3 @@ initStatus(可选 默认0) | int | 初始状态的数字
 > Copyright (C) 2017-2018 Hoshikawa Shiro.
 > Licensed under the MIT.
 > (See the [LICENSE](https://github.com/SinoReimu/DigitalNumber-android/blob/master/LICENSE) file for the whole license text.)
-
-
-
