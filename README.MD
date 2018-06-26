@@ -3,6 +3,7 @@
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![API](https://img.shields.io/badge/API-15%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=15)
+[![Build Status](https://www.travis-ci.org/SinoReimu/DigitalNumber-android.svg?branch=master)](https://www.travis-ci.org/SinoReimu/DigitalNumber-android)
 
 ## 特性
 
