@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("cn.tecotaku.cn.digestclock", appContext.getPackageName());
+        assertEquals("cn.tecotaku.cn.digitalclock", appContext.getPackageName());
     }
 }
