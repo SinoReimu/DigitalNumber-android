@@ -1,5 +1,5 @@
 # DigestNumber
-一个精致的Android数字变换控件（内含一个时间变换控件）
+一个精致的Android数字变换效果（内含一个时间变换控件）
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
@@ -85,7 +85,7 @@ initStatus(可选 默认0) | int | 初始状态的数字
 ```
 更新数字状态（可以更新到同样的数字，将自动过滤），可用于各类需要数字变动的控件
 
-如果要自定义Number线条样式，可以直接更改Number.getPaint()获取到的Paint，或者继承Number类复写其中的属性和方法。
+如果要自定义Number线条样式，可以直接更改Number.getPaint()获取到的Paint，或者继承Number类复写其中的属性和方法。 
 
 ## 贡献
 如果你对于这个组件的改进有任何意见可以直接提出ISSUE，我会以最快的速度进行回复。或者你有自己的想法也可以加入进来，直接Pull Request就可以啦~
